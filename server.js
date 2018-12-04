@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/codemobiles/print',(req,res) => {
-    res.json("hi wizz");
+    res.json("hi wizz version2");
 });
 
 app.listen(PORT, HOST);
